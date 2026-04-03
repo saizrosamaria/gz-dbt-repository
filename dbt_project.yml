@@ -43,3 +43,5 @@ models:
       +materialized: view      
     mart:
       +materialized: table
+      finance:
+        +schema: dbt_rosa_finance
